@@ -8,6 +8,10 @@ def cube(side: float)->float:
     return side ** 3
 
 def cylinder(r: float, h: float)->float:
+    '''
+    r: radius
+    h: height
+    '''
     return math.pi*r*r*h
 
 
