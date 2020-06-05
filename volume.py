@@ -1,10 +1,15 @@
 import math
 
-def cube(side):
+def cube(side: float)->float:
+    '''
+    side: float
+    return: cube volume
+    '''
     return side ** 3
 
-def cylinder(r, h):
+def cylinder(r: float, h: float)->float:
     return math.pi*r*r*h
+
 
 if __name__ == "__main__":
     print(f'cube(2) = {cube(2)}')
